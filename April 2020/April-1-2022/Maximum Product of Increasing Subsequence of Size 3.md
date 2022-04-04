@@ -1,5 +1,8 @@
 # Note
-Try to first atleast give 30 minutes to the questions and think of all the possible ways you can think to reach the solution
+Try to first atleast give 30 minutes to the questions and think of all the possible ways you can think to reach the solution  
+## Question
+Given a sequence of non-negative integers, find the subsequence of length 3 having maximum product, with the elements of the subsequence  
+being in increasing order.
 ## Explanation  
 Here what we have to do is find 3 numbers of increasing order that will give the maximum product.So to do that what we can do is for every number find  
 the largest number samller than current number on left and the largest number on right and then calculate its product and find those three numbers which  
