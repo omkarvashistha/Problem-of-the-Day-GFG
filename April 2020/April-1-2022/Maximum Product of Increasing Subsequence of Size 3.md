@@ -1,4 +1,4 @@
-<H1>Note</H1>
+# Note
 Try to first atleast give 30 minutes to the questions and think of all the possible ways you can think to reach the solution
 ## Explanation  
 Here what we have to do is find 3 numbers of increasing order that will give the maximum product.So to do that what we can do is for every number find  
@@ -8,7 +8,8 @@ So how to achieve this, it is pretty simple we could create either 2 extra array
 and the other array stores largest number on the right of current number.  
 Or what we can do is we just use one extra array for finding greatest number on right and use a loop to find largest number smaller than current number  
 and when we find one just find product of all three number check if it is largest product or not and store those numbers in our answer array.  
-## Code
+## Code  
+```
 vector<int> maxProductSubsequence(int *a , int n) 
     {
         vector<int> ans = {-1,-1,-1};
@@ -38,3 +39,4 @@ vector<int> maxProductSubsequence(int *a , int n)
         }
         return ans;
     }
+```
